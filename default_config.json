@@ -1,0 +1,112 @@
+{
+  "开关": [
+    {
+      "Id": "AutoFavoriteRealm3",
+      "Type": "SWITCH",
+      "BoolVal": true,
+      "Callback": "NianLiXiuXing.code.Core.ConfigCache:OnAutoFavoriteRealm3Changed"
+    },
+    {
+      "Id": "AutoFavoriteRealm4",
+      "Type": "SWITCH",
+      "BoolVal": true,
+      "Callback": "NianLiXiuXing.code.Core.ConfigCache:OnAutoFavoriteRealm4Changed"
+    },
+    {
+      "Id": "AutoFavoriteRealm5",
+      "Type": "SWITCH",
+      "BoolVal": true,
+      "Callback": "NianLiXiuXing.code.Core.ConfigCache:OnAutoFavoriteRealm5Changed"
+    },
+    {
+      "Id": "BlockBreakthroughRealm3",
+      "Type": "SWITCH",
+      "BoolVal": false,
+      "Callback": "NianLiXiuXing.code.Core.ConfigCache:OnBlockBreakthroughRealm3Changed"
+    },
+    {
+      "Id": "BlockBreakthroughRealm4",
+      "Type": "SWITCH",
+      "BoolVal": false,
+      "Callback": "NianLiXiuXing.code.Core.ConfigCache:OnBlockBreakthroughRealm4Changed"
+    },
+    {
+      "Id": "BlockBreakthroughRealm5",
+      "Type": "SWITCH",
+      "BoolVal": false,
+      "Callback": "NianLiXiuXing.code.Core.ConfigCache:OnBlockBreakthroughRealm5Changed"
+    },
+    {
+      "Id": "UseHardMode",
+      "Type": "SWITCH",
+      "BoolVal": false,
+      "Callback": "NianLiXiuXing.code.Core.ConfigCache:OnDifficultyModeChanged"
+    },
+    {
+      "Id": "EnableDebugLog",
+      "Type": "SWITCH",
+      "BoolVal": false,
+      "Callback": "NianLiXiuXing.code.Core.ConfigCache:OnDebugLogChanged"
+    },
+    {
+      "Id": "InfiniteResurrection",
+      "Type": "SWITCH",
+      "BoolVal": true,
+      "Callback": "NianLiXiuXing.code.Core.ConfigCache:OnInfiniteResurrectionChanged"
+    },
+    {
+      "Id": "EnableAutoGC",
+      "Type": "SWITCH",
+      "BoolVal": true,
+      "Callback": "NianLiXiuXing.code.Core.ConfigCache:OnEnableAutoGCChanged"
+    },
+    {
+      "Id": "EnableNianLiAILimiter",
+      "Type": "SWITCH",
+      "BoolVal": true,
+      "Callback": "NianLiXiuXing.code.Core.ConfigCache:OnEnableNianLiAILimiterChanged"
+    },
+    {
+      "Id": "EnableManaConvert",
+      "Type": "SWITCH",
+      "BoolVal": true,
+      "Callback": "NianLiXiuXing.code.Core.ConfigCache:OnManaConvertChanged"
+    }
+  ],
+  "上四境限制": [
+    {
+      "Id": "MaxGreatRealm",
+      "Type": "TEXT",
+      "TextVal": "50",
+      "Callback": "NianLiXiuXing.code.Core.ConfigCache:OnMaxGreatRealmChanged"
+    },
+    {
+      "Id": "MaxRingRealm",
+      "Type": "TEXT",
+      "TextVal": "20",
+      "Callback": "NianLiXiuXing.code.Core.ConfigCache:OnMaxRingRealmChanged"
+    },
+    {
+      "Id": "MaxUpholdRealm",
+      "Type": "TEXT",
+      "TextVal": "10",
+      "Callback": "NianLiXiuXing.code.Core.ConfigCache:OnMaxUpholdRealmChanged"
+    },
+    {
+      "Id": "MaxTranscendent",
+      "Type": "TEXT",
+      "TextVal": "3",
+      "Callback": "NianLiXiuXing.code.Core.ConfigCache:OnMaxTranscendentChanged"
+    }
+  ],
+  "念力修行设置": [
+    {
+      "Id": "LawLoopholeMultiplier",
+      "Type": "SLIDER",
+      "FloatVal": 2.0,
+      "Min": 0.0,
+      "Max": 10.0,
+      "Callback": "NianLiXiuXing.code.Core.ConfigCache:OnLawLoopholeMultiplierChanged"
+    }
+  ]
+}
